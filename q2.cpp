@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+    vector<vector<int>> LevelOrder(TreeNode* root) {
         vector<vector<int>>ans;
         queue<TreeNode*>q;// make queue for nodes;
         
